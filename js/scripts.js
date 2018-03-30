@@ -13,18 +13,22 @@ function hal9000(number) {
       if (number % 3 === 0 && number > 0) {
         robotOutput = outputString2 + name + outputString3
         $("body").css("background-color", "red");
+        $(".jumbotron").css("background-image", "url(img/hal.jpg)");
       } else if (userArray[i] === binary[1]) {
         robotOutput = outputString1
         $("body").css("background-color", "black");
+        $(".jumbotron").css("background-image", "url(img/hal1.jpg)");
         break
       } else if (userArray[i] === binary[0]) {
         robotOutput = outputString0
         $("body").css("background-color", "purple");
+        $(".jumbotron").css("background-image", "url(img/hal1.jpg)");
       } else {
         for (var j = 0; j <= number; j++) {
           range.push(j);
           robotOutput = range
           $("body").css("background-color", "red");
+          $(".jumbotron").css("background-image", "url(img/hal1.jpg)");
         }
       }
     }
