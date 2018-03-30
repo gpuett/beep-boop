@@ -21,7 +21,7 @@ A website created with HTML, CSS, and JavaScript that outputs a message if one o
   * Output: "I'm sorry, Dave. I'm afraid I can't do that."
 * The program will output a range of numbers from 0 to the input number
   * User Input: "4"
-  * Output:"0,1,2,3,4"
+  * Output: "0,1,2,3,4"
 
 ## Setup/Installation Requirements
 * Open browser and travel to <a href="https://gpuett.github.io/beep-boop/">this link</a>

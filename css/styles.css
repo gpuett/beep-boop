@@ -1,15 +1,3 @@
-ul {
-  list-style: none;
-  font-style: italic;
-}
-
-.jumbotron {
-  background-image: url(../img/hal.jpg);
-  background-position: center;
-  color: red;
-  text-shadow: 2px 2px white;
-}
-
 body {
   background-image: url(../img/2001.jpg);
   background-position: center;
@@ -19,6 +7,24 @@ body {
   background-color: black;
 }
 
+.jumbotron {
+  background-image: url(../img/hal.jpg);
+  background-position: center;
+  color: red;
+  text-shadow: 2px 2px white;
+  background-size: 80%;
+  height: 300px;
+}
+
+h1 {
+  padding-top: 50px;
+}
+
 #robot {
   max-width: 200px;
+}
+
+ul {
+  list-style: none;
+  font-style: italic;
 }
