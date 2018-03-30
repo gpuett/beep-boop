@@ -8,7 +8,7 @@
 
 A website created with HTML, CSS, and JavaScript that outputs a message if one of three numbers is included in the input.
 
-### Specifications
+## Specifications
 
 * The program will output a "Beep!" if the input includes a 0
   * User Input: "20"
