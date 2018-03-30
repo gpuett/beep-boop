@@ -22,6 +22,9 @@ A website created with HTML, CSS, and JavaScript that outputs a message if one o
 * The program will output a range of numbers from 0 to the input number
   * User Input: "4"
   * Output: "0,1,2,3,4"
+* The program will use an optional feature to output a range of numbers from the input number to 0 when the
+  * User Input: "4"
+  * Output: "4,3,2,1,0"
 
 ## Setup/Installation Requirements
 * Open browser and travel to <a href="https://gpuett.github.io/beep-boop/">this link</a>
