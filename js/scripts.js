@@ -24,7 +24,7 @@ function hal9000(number) {
         for (var j = 0; j <= number; j++) {
           range.push(j);
           robotOutput = range
-          $("body").css("background-color", "black");
+          $("body").css("background-color", "red");
         }
       }
     }
