@@ -2,3 +2,18 @@ ul {
   list-style: none;
   font-style: italic;
 }
+.jumbotron {
+  background-image: url(../img/hal.jpg);
+  background-position: center;
+  color: red;
+  text-shadow: 2px 2px white;
+}
+
+body {
+  background-image: url(../img/2001.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  background-color: black;
+}
