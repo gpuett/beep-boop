@@ -18,7 +18,7 @@ A website created with HTML, CSS, and JavaScript that outputs a message if one o
   * Output: "Boop!"
 * The program will output a "I'm sorry, 'user'. I'm afraid I can't do that." if the input is divisible by 3
   * User Input: "Garnett, 9"
-  * Output: "I'm sorry, Dave. I'm afraid I can't do that."
+  * Output: "I'm sorry, Garnett. I'm afraid I can't do that."
 * The program will output a range of numbers from 0 to the input number
   * User Input: "4"
   * Output: "0,1,2,3,4"

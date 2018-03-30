@@ -12,22 +12,24 @@ function hal9000(number) {
     for (var i = 0; i < userArray.length; i++) {
       if (number % 3 === 0 && number > 0) {
         robotOutput = outputString2 + name + outputString3
+        $("body").css("background-color", "red");
       } else if (userArray[i] === binary[1]) {
         robotOutput = outputString1
+        $("body").css("background-color", "white");
         break
       } else if (userArray[i] === binary[0]) {
         robotOutput = outputString0
+        $("body").css("background-color", "purple");
       } else {
         for (var j = 0; j <= number; j++) {
           range.push(j);
           robotOutput = range
+          $("body").css("background-color", "black");
         }
       }
     }
   return robotOutput
 }
-
-
 
 // User-Interface Logic
 $(function() {
