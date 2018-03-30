@@ -27,7 +27,7 @@ A website created with HTML, CSS, and JavaScript that outputs a message if one o
   * Output: "4,3,2,1,0"
 
 ## Setup/Installation Requirements
-* Open browser and travel to <a href="https://gpuett.github.io/beep-boop/">this link</a>
+* Open browser and travel to <a href="https://gpuett.github.io/beep-boop/index">this link</a>
 
 ## Known Bugs
 * No known bugs at this time.
