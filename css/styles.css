@@ -33,3 +33,17 @@ ul {
 button {
   margin-right: 15px;
 }
+
+#twirl {
+  display: none;
+}
+
+#vortex {
+  display: none;
+}
+
+#beep {
+  display: none;
+  width: 50%;
+  height: 50%;
+}

@@ -14,21 +14,33 @@ function hal9000(number) {
         robotOutput = outputString2 + name + outputString3
         $("body").css("background-color", "red");
         $(".jumbotron").css("background-image", "url(img/hal.jpg)");
+        $("#twirl").show();
+        $("#vortex").hide();
+        $("#beep").hide();
       } else if (userArray[i] === binary[1]) {
         robotOutput = outputString1
         $("body").css("background-color", "black");
         $(".jumbotron").css("background-image", "url(img/hal1.jpg)");
+        $("#beep").show();
+        $("#vortex").hide();
+        $("#twirl").hide();
         break
       } else if (userArray[i] === binary[0]) {
         robotOutput = outputString0
-        $("body").css("background-color", "purple");
+        $("body").css("background-color", "black");
         $(".jumbotron").css("background-image", "url(img/hal1.jpg)");
+        $("#beep").show();
+        $("#vortex").hide();
+        $("#twirl").hide();
       } else {
         for (var j = 0; j <= number; j++) {
           range.push(j);
           robotOutput = range
-          $("body").css("background-color", "red");
+          $("body").css("background-color", "black");
           $(".jumbotron").css("background-image", "url(img/hal1.jpg)");
+          $("#vortex").show();
+          $("#twirl").hide();
+          $("#beep").hide();
         }
       }
     }
