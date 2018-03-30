@@ -6,6 +6,7 @@ function hal9000(number) {
   var outputString1 = "Boop!";
   var outputString3 = "I'm sorry, Dave. I'm afraid I can't do that.";
   var robotOutput = "";
+  var range = [];
     for (var i = 0; i < userArray.length; i++) {
       if (number % 3 === 0 && number > 0) {
         robotOutput = outputString3
@@ -16,7 +17,10 @@ function hal9000(number) {
       } else if (userArray[i] === binary[0]) {
         robotOutput = outputString0
       } else {
-        
+        for (var j = 0; j <= number; j++) {
+          range.push(j);
+          robotOutput = range
+        }
       }
     }
   return robotOutput
