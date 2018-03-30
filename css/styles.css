@@ -2,6 +2,7 @@ ul {
   list-style: none;
   font-style: italic;
 }
+
 .jumbotron {
   background-image: url(../img/hal.jpg);
   background-position: center;
@@ -16,4 +17,8 @@ body {
   background-attachment: fixed;
   color: white;
   background-color: black;
+}
+
+#robot {
+  max-width: 200px;
 }
