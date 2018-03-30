@@ -15,7 +15,7 @@ function hal9000(number) {
         $("body").css("background-color", "red");
       } else if (userArray[i] === binary[1]) {
         robotOutput = outputString1
-        $("body").css("background-color", "white");
+        $("body").css("background-color", "black");
         break
       } else if (userArray[i] === binary[0]) {
         robotOutput = outputString0
@@ -45,5 +45,6 @@ $(function() {
     var robotSpeech = hal9000(userInput);
     var reverseSpeech = robotSpeech.reverse();
     $("#output").append("<li>" + reverseSpeech + "</li>");
+    $("body").css("background-color", "red");
   });
 });
