@@ -3,11 +3,17 @@ var binary = ["0", "1"];
 function hal9000(number) {
   var userArray = number.split("");
   var outputString0 = "Beep!";
-  var outputString1 = "<em>Boop!</em>";
+  var outputString1 = "Boop!";
   var outputString3 = "<em>I'm sorry, Dave. I'm afraid I can't do that.</em>";
   var robotOutput = "";
     for (var i = 0; i < userArray.length; i++) {
-      if (userArray[i] === binary[0]) {
+      if (number % 3 === 0) {
+        robotOutput = outputString3
+        break
+      } else if (userArray[i] === binary[1]) {
+        robotOutput = outputString1
+        break
+      } else if (userArray[i] === binary[0]) {
         robotOutput = outputString0
       }
     }
