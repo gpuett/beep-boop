@@ -30,4 +30,11 @@ $(function() {
     var robotSpeech = hal9000(userInput);
     $("#output").append("<li>[" + robotSpeech + "]</li>");
   });
+  $("#reverse").click(function(event) {
+    event.preventDefault();
+    var userInput = $("#input").val();
+    var robotSpeech = hal9000(userInput);
+    var reverseSpeech = robotSpeech.reverse();
+    $("#output").append("<li>[" + reverseSpeech + "]</li>");
+  });
 });
