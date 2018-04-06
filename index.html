@@ -9,33 +9,22 @@
   </head>
   <body>
     <div class="jumbotron">
-      <h1>Hal-9000</h1>
+      <h1>HAL-9000v2.0</h1>
     </div>
     <div class="container">
-      <div class="row">
-        <div class="col-md">
-          <form id="robot">
-            <div class="form-group">
-              <label for="input">Enter your name:</label>
-              <input class="form-control" id="name" type="text" required>
-              <br>
-              <label for="input">Enter a number:</label>
-              <input class="form-control" id="input" type="text">
-              <br>
-              <button type="submit" class="btn btn-danger">Submit</button><button type="button" id="reverse" class="btn btn-info">Reverse</button>
-            </div>
-          </form>
+      <form id="robot">
+        <div class="form-group">
+          <label for="input">Enter a number:</label>
+          <input class="form-control" id="input" type="text">
           <br>
-          <div class="output">
-            <ul id="output">
-            </ul>
-          </div>
+          <button type="submit" class="btn btn-danger">Submit</button>
+          <button type="button" id="reverse" class="btn btn-info">Reverse</button>
         </div>
-        <div id="display" class="col-md">
-          <img id="vortex" src="img/vortex.gif">
-          <img id="twirl" src="img/twirl.gif">
-          <img id="beep" src="img/beepboop.gif">
-        </div>
+      </form>
+      <br>
+      <div class="output">
+        <ul id="output">
+        </ul>
       </div>
     </div>
   </body>

@@ -1,10 +1,10 @@
-body {
-  background-image: url(../img/2001.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+.container {
   color: white;
   background-color: black;
+}
+
+body {
+  background-image: url(../img/space.jpg);
 }
 
 .jumbotron {
@@ -32,18 +32,4 @@ ul {
 
 button {
   margin-right: 15px;
-}
-
-#twirl {
-  display: none;
-}
-
-#vortex {
-  display: none;
-}
-
-#beep {
-  display: none;
-  width: 50%;
-  height: 50%;
 }

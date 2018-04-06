@@ -1,6 +1,6 @@
 # Beep Boop
 
-#### A program that allows users to input a number a receive a message depending on whether a 0, 1, or 3 were present in the number.
+#### A program that allows users to input a number and receive a range from 0 to the input. A message replaces all numbers that include the digits 1 or 0 or are divisible by 3.
 
 #### By Garnett Puett
 
@@ -10,24 +10,28 @@ A website created with HTML, CSS, and JavaScript that outputs a message if one o
 
 ## Specifications
 
-* The program will output a "Beep!" if the input includes a 0
-  * User Input: "20"
-  * Output: "Beep!"
-* The program will output a "Boop!" if the input includes a 1
+* The program will output a "Beep!" for all numbers in the range that includes 0
+  * User Input: "0"
+  * Output: ["Beep!"]
+* The program will output a "Boop!"for all numbers in the range that include 1
   * User Input: "1"
-  * Output: "Boop!"
-* The program will output a "I'm sorry, 'user'. I'm afraid I can't do that." if the input is divisible by 3
-  * User Input: "Garnett, 9"
-  * Output: "I'm sorry, Garnett. I'm afraid I can't do that."
-* The program will output a range of numbers from 0 to the input number
-  * User Input: "4"
-  * Output: "0,1,2,3,4"
-* The program will use an optional feature to output a range of numbers from the input number to 0 when the
-  * User Input: "4"
-  * Output: "4,3,2,1,0"
+  * Output: ["Beep!","Boop!"]
+* The program will output a "I'm sorry, Dave. I'm afraid I can't do that." for all numbers in the range that are divisible by 3
+  * User Input: "3"
+  * Output: ["Beep!","Boop!", 2, "I'm sorry, Dave. I'm afraid I can't do that."]
+* The program will prioritize the output associated with 1 over 0
+  * User Input: "10"
+  * Output: ["Beep!","Boop!",2,"I'm sorry, Dave. I'm afraid I can't do that.", 4,5,"I'm sorry, Dave. I'm afraid I can't do that.",7,8,"I'm sorry, Dave. I'm afraid I can't do that.","Boop!"]
+* The program will prioritize the output associated with numbers divisible by 3 over 1
+  * User Input: "12"
+  * Output: ["Beep!","Boop!",2,"I'm sorry, Dave. I'm afraid I can't do that.", 4,5,"I'm sorry, Dave. I'm afraid I can't do that.",7,8,"I'm sorry, Dave. I'm afraid I can't do that.","Boop!","Boop!","I'm sorry, Dave. I'm afraid I can't do that."]
+* The program will reverse the output when implemented
+  * User input: "3, reverse click"
+  * Output: ["I'm sorry, Dave. I'm afraid I can't do that.",2,"Boop!", "Beep!"]
+
 
 ## Setup/Installation Requirements
-* Open browser and travel to <a href="https://gpuett.github.io/beep-boop/index">this link</a>
+* Open browser and travel to <a href="https://gpuett.github.io/beep-boop/">this link</a>
 
 ## Known Bugs
 * No known bugs at this time.
